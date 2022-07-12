@@ -1,0 +1,55 @@
+Algoritmo "viagens"
+
+
+// Autor(a)    : Nicole Neves Chagas
+
+tipo
+cadastro = registro
+      nome : caracter
+      mail :caracter
+      destino :caracter
+      fimregistro
+Var
+// Seção de Declarações das variáveis
+
+      
+      listaCadastro :vetor [1..3] de cadastro
+      au : inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+            escreval("Digite os Dados:")
+                para au de 1 ate 2 faca
+
+                escreval("Nome:")
+                leia(listaCadastro[au].nome)
+                
+                 escreval("Email:")
+                leia(listaCadastro[au].mail)
+                
+                 escreval("Destino:")
+                leia(listaCadastro[au].destino)
+                
+                fimpara
+                
+                escreval("Dados Listados:")
+                para au de 1 ate 2 faca
+
+                escreval("Nome:",listaCadastro[au].nome)
+                escreval("Email:",listaCadastro[au].mail)
+                escreval("Destino:",listaCadastro[au].destino)
+
+
+                fimpara
+
+
+
+
+
+
+
+                
+                
+
+Fimalgoritmo
